@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.0",
+    "mongoose-timestamp": "^0.6.0",
+    "nodemon": "^2.0.22",
+    "restify": "^11.1.0",
+    "restify-errors": "^8.0.2",
+    "restify-jwt-community": "^2.0.0",
+    "restify-router": "^0.6.2"
+  },
+  "name": "2_restify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "nodemon": "nodemon index.js"
+  },
+  "author": "Nimit Jain",
+  "license": "ISC",
+  "description": "Example on how to use Restify, jwt, bcrypt, mongoose"
+}
